@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/" style={{ color: "gold" }}>
+        <Navbar.Brand href="/" style={{ color: "#44CAF0" }}>
           <FontAwesomeIcon icon={faVideoSlash} /> MovieHub
         </Navbar.Brand>
 
