@@ -49,6 +49,12 @@
   width: 300px;
 }
 
+.movie-review-button-container {
+  display: flex;
+
+  align-items: center;
+}
+
 .play-button-icon-container {
   padding: 0px;
   margin: 0px;
