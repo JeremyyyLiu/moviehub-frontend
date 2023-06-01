@@ -58,7 +58,8 @@
 .play-button-icon {
   padding: 0px;
   margin: 0px;
-  color: "#44CAF0";
+  font-size: 3rem;
+  color: #44caf0;
   transition: 0.3s;
   cursor: pointer;
 }
