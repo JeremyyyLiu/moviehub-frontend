@@ -4,8 +4,6 @@ import { useParams } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import ReviewForm from "../reviewForm/ReviewForm";
 
-import React from "react";
-
 const Reviews = ({ getMovieData, movie, reviews, setReviews }) => {
   const revText = useRef();
   let params = useParams();
@@ -15,7 +13,7 @@ const Reviews = ({ getMovieData, movie, reviews, setReviews }) => {
     getMovieData(movieId);
   }, []);
 
-  // Add review method
+  // Request to add a review
   const addReview = async (e) => {
     e.preventDefault();
     const rev = revText.current;
@@ -30,7 +28,7 @@ const Reviews = ({ getMovieData, movie, reviews, setReviews }) => {
       rev.value = "";
       setReviews(updatedReviews);
     } catch (err) {
-      return err;
+      console.error(err);
     }
   };
 
@@ -41,7 +39,6 @@ const Reviews = ({ getMovieData, movie, reviews, setReviews }) => {
           <h3>Reviews</h3>
         </Col>
       </Row>
-
       <Row className="mt-2">
         <Col>
           <img src={movie?.poster} alt="" />

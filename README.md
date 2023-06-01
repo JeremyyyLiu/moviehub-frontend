@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Project Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to MovieHub, your go-to movie display and review website. Discover the hottest movies of the moment with eye-catching posters that will pique your curiosity. Watch trailers that will leave you on the edge of your seat, building anticipation for the big-screen experience. Get ready to immerse yourself in a world of cinematic wonders. Share your thoughts and insights by writing your own reviews and connect with a community of fellow movie enthusiasts. MovieFlix is your ultimate destination for all things film.
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+MovieHub provides the following features:
 
-### `npm start`
+- Movie poster display.
+- Latest movie trailers.
+- Add reviews to each movie.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here is the technology stack for MovieHub:
 
-### `npm test`
+- Frontend: React | Javascript | HTML5 | CSS3 | Axios
+- Backend: Spring boot | Java | Postman
+- Database: MongoDB Atlas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Getting Started With Local Environment
 
-### `npm run build`
+Before you start, please make sure you have the following installed: JDK, IntelliJ IDEA, Postman, Node.js, npm, MongoDB, and Git. Following these simple steps to get MovieHub up and running on your local machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone -b https://github.com/JeremyyyLiu/moviehub-frontend.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
 
-### `npm run eject`
+   ```bash
+   cd movieclient
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the Server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+That's it, you are good to go! Happy hacking!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Contributing
 
-## Learn More
+MovieHub is an open-source project. We are committed to a fully transparent development process and highly appreciate any contributions. Whether you are helping us fix bugs, proposing new features, improving our documentation or spreading the word - we would love to have you as a part of the MovieHub community.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Jeremy Liu
