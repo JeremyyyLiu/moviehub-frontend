@@ -9,10 +9,11 @@ import Header from "./component/header/Header";
 function App() {
   const [movies, setMovies] = useState();
 
+  // Get movies request
   const getMovies = async () => {
     try {
       const response = await axios.get("/api/v1/movies");
-      console.log(response.data);
+
       setMovies(response.data);
     } catch (err) {
       return err;
